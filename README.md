@@ -20,13 +20,13 @@ python3 A-DECRYPTOOL.py
 ```
 # Direct file
 ```
-python3 A-DECRYPTOOL.py encoded.py
+python3 A-DECRYPTOOL.py Encrypted_code.py
 ```
 # Pipe mode
 ```
-cat encoded.py | python3 A-DECRYPTOOL.py -p
+cat Encrypted_code.py | python3 A-DECRYPTOOL.py -p
 ```
 # File flag mode
 ```
-python3 A-DECRYPTOOL.py -f encoded.py
+python3 A-DECRYPTOOL.py -f Encrypted_code.py
 ```
