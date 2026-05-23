@@ -12,7 +12,7 @@ Python obfuscation decoder. Strips multiple layers of encoding/encryption from m
 ## Install
 
 ```
-pip install pycryptodome
+pip3 install pycryptodome
 ```
 # Interactive menu
 ```
