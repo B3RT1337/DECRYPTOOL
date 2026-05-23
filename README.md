@@ -11,20 +11,22 @@ Python obfuscation decoder. Strips multiple layers of encoding/encryption from m
 
 ## Install
 
-```bash
+```
 pip install pycryptodome
-
-## Usage
-
-```bash
+```
 # Interactive menu
+```
 python3 A-DECRYPTOOL.py
-
+```
 # Direct file
+```
 python3 A-DECRYPTOOL.py encoded.py
-
+```
 # Pipe mode
+```
 cat encoded.py | python3 A-DECRYPTOOL.py -p
-
+```
 # File flag mode
+```
 python3 A-DECRYPTOOL.py -f encoded.py
+```
